@@ -1,0 +1,14 @@
+{
+	"servers": {
+		"get-wether": {
+			"type": "stdio",
+			"command": "npx",
+			"args": [
+				"-y",
+				"tsx",
+				"main.ts"
+			]
+		}
+	},
+	"inputs": []
+}
